@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <div class="container-body">
+      <header class="container">
+        <img class="logo" src="assets/logo.svg" alt="logo" />
+
+        <a href="#" class="button">Request Beta Access</a>
+      </header>
+
+      <main class="container">
+        <section class="hero-section">
+          <span class="hero-arch"></span>
+          <h1>A super solution for your business.</h1>
+          <p>
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <a href="#" class="button" data-type="inverse">Request Beta Access</a>
+
+          <picture class="hero-image">
+            <source
+              srcset="assets/image-hero-portrait.png"
+              media="(min-width: 1080px)"
+            />
+
+            <img src="assets/image-hero-landscape.png" alt="#" />
+          </picture>
+
+          <ul role="list" aria-label="item list">
+            <li class="list-title">2K+</li>
+            <li class="list-item">Companies</li>
+            <li class="list-title">8</li>
+            <li class="list-item">Languages</li>
+            <li class="list-title">1.2M</li>
+            <li class="list-item">Leads</li>
+          </ul>
+        </section>
+      </main>
+
+      <section>
+        <div class="leader-bio">
+          <picture class="quote-image">
+            <source
+              srcset="assets/image-jeremy-large.png"
+              media="(min-width: 1080px)"
+            />
+
+            <img
+              class="bio-image"
+              src="assets/image-jeremy-small.png"
+              alt="the leader's photo"
+            />
+          </picture>
+          <p>It just <strong>works.</strong></p>
+          <p>
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+
+          <div class="bio-info">
+            <p class="bio-name">Jeremy Robinson</p>
+            <p class="bio-rank">CMO, Fylo</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <img class="logo" src="assets/logo.svg" alt="#" />
+          <p class="copyright">Copyright - Suite</p>
+
+          <ul class="social-link" role="list" aria-label="social-links">
+            <a href="#">
+              <li></li>
+            </a>
+            <a href="#">
+              <li></li>
+            </a>
+            <a href="#">
+              <li></li>
+            </a>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
