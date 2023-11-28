@@ -25,86 +25,159 @@
   <body>
     <div class="container-body">
       <header class="container">
-        <img class="logo" src="starter-code/assets/logo.svg" alt="logo" />
+        <div>
+          <a href="#">
+            <img class="logo" src="starter-code/assets/logo.svg" alt="logo" />
+          </a>
+        </div>
 
-        <a href="#" class="button">Request Beta Access</a>
+        <a href="#" class="button nav-button">Request Beta Access</a>
       </header>
 
       <main class="container">
         <section class="hero-section">
-          <span class="hero-arch"></span>
-          <h1>A super solution for your business.</h1>
-          <p>
-            Our marketing and sales automations help you scale your outreach to
-            get more leads for your company.
-          </p>
-          <a href="#" class="button" data-type="inverse">Request Beta Access</a>
+          <div class="hero-section-container">
+            <div class="hero-content-wrapper">
+              <span class="hero-arch"></span>
+              <h1 class="primary-heading heading-xbold">
+                <span class="heading-bold">A</span> super solution
+                <span class="heading-bold">for your</span> business.
+              </h1>
+              <p class="text-regular intro-text clr-text-neutral-400">
+                Our marketing and sales automations help you scale your outreach
+                to get more leads for your company.
+              </p>
+              <div class="button-wrapper">
+                <button href="#" class="button hero-button" data-type="inverse">
+                  Request Beta Access
+                </button>
+              </div>
+              <picture class="hero-image">
+                <source
+                  srcset="starter-code/assets/image-hero-portrait.png"
+                  media="(min-width: 760px)"
+                />
 
-          <picture class="hero-image">
-            <source
-              srcset="starter-code/assets/image-hero-portrait.png"
-              media="(min-width: 1080px)"
-            />
+                <source
+                  srcset="starter-code/assets/image-hero-portrait.png"
+                  media="(min-width: 768px)"
+                />
 
-            <img src="starter-code/assets/image-hero-landscape.png" alt="#" />
-          </picture>
+                <img
+                  src="starter-code/assets/image-hero-landscape.png"
+                  alt="#"
+                />
+              </picture>
+            </div>
 
-          <ul role="list" aria-label="item list">
-            <li class="list-title">2K+</li>
-            <li class="list-item">Companies</li>
-            <li class="list-title">8</li>
-            <li class="list-item">Languages</li>
-            <li class="list-title">1.2M</li>
-            <li class="list-item">Leads</li>
-          </ul>
+            <div class="stats">
+              <ul class="stats-list" role="list" aria-label="item list">
+                <div class="list-item-wrapper">
+                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
+                    2K+
+                  </li>
+                  <li class="clr-text-neutral-400 heading-medium">Companies</li>
+                </div>
+                <div class="list-item-wrapper">
+                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
+                    8
+                  </li>
+                  <li class="clr-text-neutral-400 heading-medium">Languages</li>
+                </div>
+                <div class="list-item-wrapper">
+                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
+                    1.2M
+                  </li>
+                  <li class="clr-text-neutral-400 heading-medium">Leads</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="bio-section container">
+          <div class="bio-container">
+            <picture class="quote-image">
+              <source
+                srcset="starter-code/assets/image-jeremy-large.png"
+                media="(min-width: 1080px)"
+              />
+
+              <img
+                class="bio-image"
+                src="starter-code/assets/image-jeremy-small.png"
+                alt="the leader's photo"
+              />
+            </picture>
+
+            <div class="bio-quote">
+              <div class="quote-headinng">
+                <h3 class="heading-xmedium fw-regular">
+                  It just <strong class="heading-xmedium">works.</strong>
+                </h3>
+              </div>
+              <div>
+                <p class="quote-info text-regular clr-text-accent-400">
+                  “I really like how it is an all-in-one solution that handle
+                  many of the tasks that you would normally need separate tools
+                  to do the same job. This thing is a miracle worker.”
+                </p>
+              </div>
+              <div class="bio-details">
+                <p class="bio-name heading-regular clr-text-accent-400">
+                  Jeremy Robinson
+                </p>
+                <p class="bio-rank heading-medium">CMO, Fylo</p>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
-      <section>
-        <div class="leader-bio">
-          <picture class="quote-image">
-            <source
-              srcset="starter-code/assets/image-jeremy-large.png"
-              media="(min-width: 1080px)"
-            />
-
-            <img
-              class="bio-image"
-              src="starter-code/assets/image-jeremy-small.png"
-              alt="the leader's photo"
-            />
-          </picture>
-          <p>It just <strong>works.</strong></p>
-          <p>
-            “I really like how it is an all-in-one solution that handle many of
-            the tasks that you would normally need separate tools to do the same
-            job. This thing is a miracle worker.”
-          </p>
-
-          <div class="bio-info">
-            <p class="bio-name">Jeremy Robinson</p>
-            <p class="bio-rank">CMO, Fylo</p>
-          </div>
-        </div>
-      </section>
-
       <footer>
-        <div class="footer-container">
-          <img class="logo" src="starter-code/assets/logo.svg" alt="#" />
-          <p class="copyright">Copyright - Suite</p>
+        <section class="container">
+          <div class="footer-container">
+            <div>
+              <a href="#">
+                <img
+                  class="footer-logo"
+                  src="starter-code/assets/logo.svg"
+                  alt="#"
+              /></a>
+            </div>
+            <p class="copyright">Copyright - Suite</p>
 
-          <ul class="social-link" role="list" aria-label="social-links">
-            <a href="#">
-              <li></li>
-            </a>
-            <a href="#">
-              <li></li>
-            </a>
-            <a href="#">
-              <li></li>
-            </a>
-          </ul>
-        </div>
+            <ul class="social-links" role="list" aria-label="social-links">
+              <a href="#">
+                <li class="social-icon" aria-label="Facebook icon">
+                  <svg class="icon">
+                    <use
+                      xlink:href="starter-code/assets/site-icons.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </li>
+              </a>
+              <a href="#">
+                <li class="social-icon" aria-label="Twitter icon">
+                  <svg class="icon">
+                    <use
+                      xlink:href="starter-code/assets/site-icons.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </li>
+              </a>
+              <a href="#">
+                <li class="social-icon" aria-label="Instagram icon">
+                  <svg class="icon">
+                    <use
+                      xlink:href="starter-code/assets/site-icons.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </section>
       </footer>
     </div>
   </body>
