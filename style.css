@@ -192,6 +192,11 @@ picture img {
   top: 0;
 }
 
+.hero-arch {
+  content: url(starter-code/assets/pattern-curved-line-1.svg);
+  transform: translate(18.125rem, -0.625rem);
+}
+
 .hero-image {
   /* position: absolute;
   z-index: -3;
