@@ -47,10 +47,11 @@
                 Our marketing and sales automations help you scale your outreach
                 to get more leads for your company.
               </p>
+
               <div class="button-wrapper">
-                <button href="#" class="button hero-button" data-type="inverse">
+                <a href="#" class="button hero-button" data-type="inverse">
                   Request Beta Access
-                </button>
+                </a>
               </div>
               <picture class="hero-image">
                 <source
@@ -72,44 +73,47 @@
             </div>
 
             <div class="stats">
-              <ul class="stats-list" role="list" aria-label="item list">
-                <div class="list-item-wrapper">
-                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
-                    2K+
-                  </li>
-                  <li class="clr-text-neutral-400 heading-medium">Companies</li>
-                </div>
-                <div class="list-item-wrapper">
-                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
-                    8
-                  </li>
-                  <li class="clr-text-neutral-400 heading-medium">Languages</li>
-                </div>
-                <div class="list-item-wrapper">
-                  <li class="clr-text-primary-400 heading-xmedium fw-bold">
-                    1.2M
-                  </li>
-                  <li class="clr-text-neutral-400 heading-medium">Leads</li>
-                </div>
-              </ul>
+              <div class="item-wrapper">
+                <h2 class="clr-text-primary-400 heading-xmedium fw-bold">
+                  2k+
+                </h2>
+                <p class="clr-text-neutral-400 heading-medium">Companies</p>
+              </div>
+
+              <div class="item-wrapper">
+                <h2 class="clr-text-primary-400 heading-xmedium fw-bold">8</h2>
+                <p class="clr-text-neutral-400 heading-medium">Languages</p>
+              </div>
+
+              <div class="item-wrapper">
+                <h2 class="clr-text-primary-400 heading-xmedium fw-bold">
+                  1.2M
+                </h2>
+                <p class="clr-text-neutral-400 heading-medium">Leads</p>
+              </div>
             </div>
           </div>
         </section>
 
         <section class="bio-section container">
           <div class="bio-container">
-            <picture class="quote-image">
-              <source
-                srcset="starter-code/assets/image-jeremy-large.png"
-                media="(min-width: 1080px)"
-              />
+            <div>
+              <picture class="quote-image">
+                <source
+                  srcset="starter-code/assets/image-jeremy-large.png"
+                  media="(min-width: 768px)"
+                />
 
-              <img
-                class="bio-image"
-                src="starter-code/assets/image-jeremy-small.png"
-                alt="the leader's photo"
-              />
-            </picture>
+                <img
+                  class="bio-mobile-image"
+                  src="starter-code/assets/image-jeremy-small.png"
+                  alt="the leader's photo"
+                  style="width: auto"
+                />
+              </picture>
+            </div>
+
+            <span class="pattern-curve"></span>
 
             <div class="bio-quote">
               <div class="quote-headinng">
@@ -128,56 +132,59 @@
                 <p class="bio-name heading-regular clr-text-accent-400">
                   Jeremy Robinson
                 </p>
-                <p class="bio-rank heading-medium">CMO, Fylo</p>
+                <p class="bio-rank heading-medium clr-text-accent-400">
+                  CMO, Fylo
+                </p>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <footer>
-        <section class="container">
-          <div class="footer-container">
-            <div>
-              <a href="#">
-                <img
-                  class="footer-logo"
-                  src="starter-code/assets/logo.svg"
-                  alt="#"
-              /></a>
-            </div>
-            <p class="copyright">Copyright - Suite</p>
-
-            <ul class="social-links" role="list" aria-label="social-links">
-              <a href="#">
-                <li class="social-icon" aria-label="Facebook icon">
-                  <svg class="icon">
-                    <use
-                      xlink:href="starter-code/assets/site-icons.svg#icon-facebook"
-                    ></use>
-                  </svg>
-                </li>
-              </a>
-              <a href="#">
-                <li class="social-icon" aria-label="Twitter icon">
-                  <svg class="icon">
-                    <use
-                      xlink:href="starter-code/assets/site-icons.svg#icon-twitter"
-                    ></use>
-                  </svg>
-                </li>
-              </a>
-              <a href="#">
-                <li class="social-icon" aria-label="Instagram icon">
-                  <svg class="icon">
-                    <use
-                      xlink:href="starter-code/assets/site-icons.svg#icon-instagram"
-                    ></use>
-                  </svg>
-                </li>
-              </a>
-            </ul>
+      <footer class="container">
+        <section class="footer-container">
+          <div>
+            <a href="#">
+              <img
+                class="footer-logo"
+                src="starter-code/assets/logo.svg"
+                alt="#"
+            /></a>
           </div>
+
+          <div>
+            <p class="copyright">Copyright - Suite</p>
+          </div>
+
+          <ul class="social-links" role="list" aria-label="social-links">
+            <a href="#">
+              <li class="social-icon" aria-label="Facebook icon">
+                <svg class="icon">
+                  <use
+                    xlink:href="starter-code/assets/site-icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+            <a href="#">
+              <li class="social-icon" aria-label="Twitter icon">
+                <svg class="icon">
+                  <use
+                    xlink:href="starter-code/assets/site-icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+            <a href="#">
+              <li class="social-icon" aria-label="Instagram icon">
+                <svg class="icon">
+                  <use
+                    xlink:href="starter-code/assets/site-icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+          </ul>
         </section>
       </footer>
     </div>
